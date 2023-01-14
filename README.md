@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="https://github.com/rhernandez00/Visual-categories-in-dogs-and-humans/blob/main/style.css">
 
-# Visual-categories-in-dogs-and-humans
+# Comparative study of dog vision
 
 This repository contains some of the code I wrote related to my upcoming paper in which we compare the visual cortex of humans and dogs using fMRI.
 
