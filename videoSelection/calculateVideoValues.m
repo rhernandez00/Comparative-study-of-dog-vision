@@ -1,4 +1,4 @@
-function [results] = calculateVideoValues(videoName,blockSize,testing)
+function [results] = calculateVideoValues(videoName)
 %{
 Returns results, a structure with the fields described below. Each property
 represents the average across all frames, the properties calculated are: 
@@ -41,7 +41,7 @@ brightness = mean(brightness);
 contrast = mean(contrast);
 
 %Calculates motion using MATLAB's BlockMatcher function
-motion = calculateMotion(videoName,numberOfFrames,blockSize,testing); 
+[~,motion] = calculateMotion(videoName,'method','blockMatcher');
 
 %Writing properties in the results structure
 results.hue = hue;
