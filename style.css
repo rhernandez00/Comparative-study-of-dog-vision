@@ -1,0 +1,8 @@
+/* Style for Figure caption */
+.caption {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
